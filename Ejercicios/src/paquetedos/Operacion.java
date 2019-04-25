@@ -7,9 +7,11 @@ package paquetedos;
 
 /**
  *
- * @author Usuario iTC
+ * @Edgar Guamo Usuario ITC
  */
 public class Operacion {
+    // Variables que contiene el mensaje que se va a imprimir 
     
     public static String mensaje  = "Usted está aprobado con: ";
+    public static String mensaje2 = "Usted está reprobado con: ";
 }

@@ -8,7 +8,7 @@ import java.util.Scanner;
 import paquetedos.Operacion;
 /**
  *
- * @author Usuario iTC
+ * @Edgar Guamo Usuario ITC
  */
 public class SeleccionSimple {
 
@@ -18,14 +18,17 @@ public class SeleccionSimple {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        //declarion de variables
         String mensaje = Operacion.mensaje;
         int calificacion;
         Scanner teclado = new Scanner(System.in);
         
+        //mensaje de Bienvenida
         System.out.println("Bienvenido al Sistema de Revision de Notas \n"
                 + "Por favor ingrese su nota:");
         calificacion = teclado.nextInt();
         
+        //Condicional if simple
         if (calificacion >= 85){
             System.out.printf( "%s %d\n", mensaje, calificacion);
         }
